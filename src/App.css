@@ -1,0 +1,17 @@
+
+.wrapper{
+    max-height: 400px;
+    border: 2px solid white;
+    display: flex;
+    overflow: auto;
+    cursor: grabbing;
+}
+.wrapper .item{
+    height: 200px;
+    min-width:200px;
+    line-height: 200px;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0px;
+    touch-action: cross-slide-x;
+}
